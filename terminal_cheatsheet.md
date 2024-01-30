@@ -1,9 +1,11 @@
 # Terminal Cheatsheet
 
 ## Overview
-Terminal cheatsheet gives a simple overview on navigating and doing actions on file systems on terminal
+Terminal cheatsheet gives a simple overview on navigating and doing actions on file systems on terminal, and also includes a few basic git commands.
 
-### Navigation and Directories
+### Terminal
+
+#### Navigation and Directories
 
 |Command |Action |
 |:------|:-------|
@@ -18,7 +20,7 @@ Terminal cheatsheet gives a simple overview on navigating and doing actions on f
 |`ls -al`| Combination of the previous 2 commands|
 |`pwd`| Prints working directory to the terminal|
 
-### File and Directory Actions
+#### File and Directory Actions
 
 |Command |Action |
 |:------|:-------|
@@ -31,3 +33,16 @@ Terminal cheatsheet gives a simple overview on navigating and doing actions on f
 |`mv FILE DIRECTORY`| Move **FILE** from it's current directory to **DIRECTORY**|
 |`cp FILE DIRECTORY`| Copy **FILE** to **DIRECTORY**|
 |`cp -r DIRECTORY NEW_DIRECTORY`| Copy **DIRECTORY** to **NEW_DIRECTORY**|
+
+### Basic Git Commands
+
+|Command |Action |
+|:------|:-------|
+|`git init`| Initialises current directory as a Git directory|
+|`git clone URL`| Retrieve Git repository from remote repo using **URL**|
+|`git status` or `gst`| Shows information whether anything in the repo has been modified|
+|`git add FILE`| Tells Git to begin tracking **FILE**|
+|`git add --all`| Add all of the files in local directory to the repo|
+|`git add .`| Stage all of the changes in the current directory|
+|`git commit -m "MESSAGE"`| Creates a new commit with the changes that were added to the staging area, with the commit message **MESSAGE**|
+|`git revert COMMIT_ID`| Creates a new commit that reverts a previous commit with the commit ID **COMMIT_ID**|
