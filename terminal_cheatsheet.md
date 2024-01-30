@@ -1,6 +1,9 @@
 # Terminal Cheatsheet
 
-## Navigation and Directories
+## Overview
+Terminal cheatsheet gives a simple overview on navigating and doing actions on file systems on terminal
+
+### Navigation and Directories
 
 |Command |Action |
 |:------|:-------|
@@ -15,7 +18,7 @@
 |`ls -al`| Combination of the previous 2 commands|
 |`pwd`| Prints working directory to the terminal|
 
-## File and Directory Actions
+### File and Directory Actions
 
 |Command |Action |
 |:------|:-------|
